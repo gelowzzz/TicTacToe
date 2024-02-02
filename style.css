@@ -33,7 +33,7 @@ pre {
 .audio p{
   margin: 0 auto;
   display: table;
-  font-size: 12px;
+  font-size: 18px;
   color: white;
 }
 
@@ -66,6 +66,9 @@ table {
     background-color: #6A0572;
     border: 2px solid #6A0572;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
