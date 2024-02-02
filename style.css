@@ -69,7 +69,14 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 50%;
 
+}
+
+.startgame {
+     position: absolute;
+     left: 50%;
+     margin-left: -100px;
 }
 
 .startgame button:hover {
