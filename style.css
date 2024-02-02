@@ -8,6 +8,10 @@ body {
 	background-attachment: fixed;
 }
 
+pre {
+	color:white;
+}
+
 .audio{
   width:100%;
   font-family: Arial;
