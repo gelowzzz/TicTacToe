@@ -57,7 +57,7 @@ table {
 .startgame button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -70,8 +70,8 @@ table {
     justify-content: center;
     align-items: center;
     left: 50%;
-    height: 100px;
-    width: 175px;
+    height: 500px;
+    width: 200px;
 
 }
 
