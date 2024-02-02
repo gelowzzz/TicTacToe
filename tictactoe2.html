@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	
+	<div id="scoreboard"></div>
+
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+			<td class="cell" id="9"></td>
+			<td class="cell" id="10"></td>
+			<td class="cell" id="11"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="12"></td>
+			<td class="cell" id="13"></td>
+			<td class="cell" id="14"></td>
+			<td class="cell" id="15"></td>
+			<td class="cell" id="16"></td>
+			<td class="cell" id="17"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="18"></td>
+			<td class="cell" id="19"></td>
+			<td class="cell" id="20"></td>
+			<td class="cell" id="21"></td>
+			<td class="cell" id="22"></td>
+			<td class="cell" id="23"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="24"></td>
+			<td class="cell" id="25"></td>
+			<td class="cell" id="26"></td>
+			<td class="cell" id="27"></td>
+			<td class="cell" id="28"></td>
+			<td class="cell" id="29"></td>
+		</tr>
+	</table>
+
+	<div class="turnText">
+		<p></p>
+	</div>
+
+	<div class="endgame">
+		<div class="text"></div>
+		<button onClick="initGame(); startGame();">Play again</button>
+	</div>
+
+	<div class="pickgamemode">
+		<div>Pick a game mode</div><br>
+		<button id="AI">AI</button>
+		<button id="local">PvP</button><br>
+		<button id="exgm">Back</button>
+	</div>
+
+	<div class="aimode">
+		<div>Pick AI Difficulty</div><br>
+		<button id="easy">Easy</button>
+		<button id="medium">Medium</button>
+		<button id="hard">Hard</button><br>
+		<button id="exaim">Back</button>
+	</div>
+
+	<div class="roundwin">
+		<div class="text1"></div>
+		<button id="continue" onClick="startGameRound();">Continue</button>
+		<button id="ext">Exit</button>
+	</div>
+
+	<div class="startgame">
+	  <button onClick="startGame()">Start Game!</button>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<div class="audio">
+		<p>Wanna have more fun? Play some music while playing!</p>
+		<audio controls autoplay loop>
+			<source src="8bitbgm.mp3" type="audio/mpeg"/>
+		</audio>
+	</div>
+	
+  <script src="script2.js"></script>
+</body>
+  <footer> 
+	<pre> Tic Tac Toe - IT222 Lazaro Ramos Paolo </pre> 
+  </footer>
+</html>
+
