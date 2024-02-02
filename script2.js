@@ -376,7 +376,7 @@ function checkGameOver() {
     if (checkWin(origBoard, player2)) {
         declareWinner(`O`);
     } else if (checkTie()) {
-        
+        declareWinner('Draw!');
     }
     currentPlayer = player1;
 }
