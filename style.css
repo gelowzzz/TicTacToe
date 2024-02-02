@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 body {
-	background-image: url('assets/choncc.jpg');
-    background-size: cover;
+	background-image: url('space.jpg');
+	background-repeat: no-repeat;
+    	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
 }
 
 .audio{
