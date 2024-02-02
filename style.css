@@ -33,7 +33,7 @@ pre {
 .audio p{
   margin: 0 auto;
   display: table;
-  font-size: 18px;
+  font-size: 24px;
   color: white;
 }
 
@@ -57,7 +57,7 @@ table {
 .startgame button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -70,6 +70,8 @@ table {
     justify-content: center;
     align-items: center;
     left: 50%;
+    height: 100px;
+    width: 175px;
 
 }
 
